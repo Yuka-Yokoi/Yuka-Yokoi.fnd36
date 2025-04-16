@@ -149,6 +149,15 @@ a {
   color:#fff
 } 
 
+/*question*/
+button {
+  font-size: 1rem;
+  background-color: #e0b4b4;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
 /*contact*/
 .title5 {
   font-size: 2rem;
