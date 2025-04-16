@@ -40,7 +40,7 @@ a {
   font-size: 2rem;
   text-align: center;
   padding: 10rem;
-  background-image:url(images/index.jpg);
+  background-image:url(index.jpg);
   background-position: center;
   background-size: cover;
 } 
@@ -57,7 +57,7 @@ a {
   font-size: 2rem;
   text-align: center;
   padding: 10rem;
-  background-image:url(images/aboutme.jpg);
+  background-image:url(aboutme.jpg);
   background-position: center;
   background-size: cover;
 } 
@@ -86,7 +86,7 @@ a {
   font-size: 2rem;
   text-align: center;
   padding: 10rem;
-  background-image:url(images/blog.jpg);
+  background-image:url(blog.jpg);
   background-position: center;
   background-size: cover;
 } 
@@ -143,7 +143,7 @@ a {
   font-size: 2rem;
   text-align: center;
   padding: 10rem;
-  background-image:url(images/game.jpg);
+  background-image:url(game.jpg);
   background-position: center;
   background-size: cover;
   color:#fff
@@ -154,7 +154,7 @@ a {
   font-size: 2rem;
   text-align: center;
   padding: 10rem;
-  background-image:url(images/contact.jpg);
+  background-image:url(contact.jpg);
   background-position: center;
   background-size: cover;
 } 
