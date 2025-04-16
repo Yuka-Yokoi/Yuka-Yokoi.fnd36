@@ -1,0 +1,160 @@
+/*共通部分*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #432 
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*header*/
+.header {
+  display: flex; 
+  justify-content: space-between;
+  background-color: #e0b4b4;
+  padding: 0.5rem 4rem;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap:1.5rem;
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color:#432
+}
+
+/*footer*/
+.footer {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #f8f7f6;
+}
+
+/*cover*/
+.title {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10rem;
+  background-image:url(images/index.jpg);
+  background-position: center;
+  background-size: cover;
+} 
+
+/*contents*/
+.contents {
+  padding: 4rem;
+  background-color: #f8f4e6;
+}
+
+/*個別部分*/
+/*profile*/
+.title2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10rem;
+  background-image:url(images/aboutme.jpg);
+  background-position: center;
+  background-size: cover;
+} 
+
+.aboutme {
+  display: flex;
+}
+
+.myphoto {
+  width: 30%;
+  object-fit: contain;
+  margin: 0 3rem;
+}
+
+.profile {
+  width: 50%;
+}
+
+.aboutme {
+  display: flex;
+}
+
+/*blog*/
+
+.title3 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10rem;
+  background-image:url(images/blog.jpg);
+  background-position: center;
+  background-size: cover;
+} 
+
+.postinfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postcategory {
+  list-style: none;
+  display: flex;
+  color: #fff;
+  gap: 2rem;
+}
+
+.category {
+  background-color: #b29a9a;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.programing {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  width: 70%
+}
+
+.side {
+  width: 20%;
+  text-align: center;
+}
+
+.sideA {
+  padding: 1rem;
+}
+
+.sideB {
+  list-style: none;
+  padding: 1rem;
+  border-bottom: #432 solid 1px;
+}
+
+/*game*/
+.title4 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10rem;
+  background-image:url(images/game.jpg);
+  background-position: center;
+  background-size: cover;
+  color:#fff
+} 
+
+/*contact*/
+.title5 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10rem;
+  background-image:url(images/contact.jpg);
+  background-position: center;
+  background-size: cover;
+} 
