@@ -7,7 +7,11 @@ const quis = [
     correct:"いくら"},
   {question:"得意なスポーツは何でしょう？", 
     answers:["マラソン", "バスケ", "バレー", "テニス"],
-    correct:"テニス"}]
+    correct:"テニス"},
+  {question:"やったことあるのはどれでしょう？", 
+    answers:["バンジージャンプ", "トライアスロン", "シェアハウス", "スカイダイビング"],
+    correct:"バンジージャンプ"}
+  ]
 
 //Q&Aを追加
 function addQuis(n) {
@@ -19,14 +23,18 @@ function addQuis(n) {
     document.getElementsByTagName("button")[i].innerText = quisN.answers[i];
     //クリックした要素を取得
     const buttons = document.getElementsByTagName("button");
-    buttons[i].addEventListener("click", checkAnswer);
-    function checkAnswer() {
+    buttons[i].onclick = function checkAnswer() {
       if (buttons[i].textContent === quisN.correct) {
-        alert("正解！");
+        alert("正解！！🥰🥰🥰");
+        if (n + 1 < quis.length) {
+          addQuis(n + 1);
+        } else {
+          alert("最後まで遊んでくれてありがとう～🎉🎉🎉")
+        }
       } else {
-        alert("不正解…");
+        alert("不正解…😭😭😭");
       }
-    }
+    }     
   }
 }
 
